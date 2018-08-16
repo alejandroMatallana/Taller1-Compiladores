@@ -16,7 +16,7 @@ export class AppComponent {
 	title = 'Taller #1 Matallana y Cardona';
 
 	constructor() {
-		console.log(PerroImports.funcionLadrar('Waof, Waof'));
+		console.log(PerroImports.funcionLadrar('Waof, Waof hola profe'));
 
 		const perro = new Perro('Firulays', '15', 'Labrador');
 		console.log(perro.nombre + ' ' + perro.edadAni + ' ' + perro.razaAni);
